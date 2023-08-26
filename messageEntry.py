@@ -5,7 +5,7 @@ class messageEntry:
     def __str__(self):
         if self.attributes[4]:
             if len(self.attributes[0]) == 0:
-                return '\n'.join(self.attributes[3]) #return only images and no text
+                return 'Files sent by ' + self.attributes[2] + ' at ' + self.attributes[2] + '\n' + '\n'.join(self.attributes[3]) #return only images and no text
             else:
                 return '"' + self.attributes[0] + '" sent by ' + self.attributes[1] + ' at ' + self.attributes[2] + '\n' + '\n'.join(self.attributes[3]) #return images and text
             
