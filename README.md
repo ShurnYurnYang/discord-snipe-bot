@@ -51,6 +51,9 @@ Initial upload: 2023/05/29
 ### Version 1.4.1 (2023/07/24)
 - Bugfix: fixed error where recording message edits did not account for attachments
 
+### Version 1.5 (2023/08/26)
+- Added author and time of message to file only recalls
+
 ## Notes
 - The UTC conversion timezone is EST by default, to change the timezone replace 'US/Eastern' with the pytz timezone of your choice
 - Program has been rewritten to make it easy for hosting services to host (personally tested and hosted with railway)
